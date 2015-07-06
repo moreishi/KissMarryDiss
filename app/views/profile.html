@@ -1,0 +1,91 @@
+<div class="container">    
+    <div class="col-md-3">
+      <div class="row">
+        <div class="col-xs-6 col-md-12">
+          <a class="thumbnail">
+            <img src="//z-n.ak.fbcdn.net/profile.ak/hprofile-ak-xpa1/v/t1.0-1/c21.16.194.194/s160x160/1551_415463998566134_233267589_n.jpg?oh=2db1fd7351e890185d0703f83a8c38b4&oe=565B4664&__gda__=1444191590_60ad9bd44a846dcb02da5b9a2d42c85e" />
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h4><small>About</small> Caesar Ian belza</h4>
+          <p>This is a sample welcome... hello world</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-9">
+      <div class="col-md-12">
+
+      </div>
+      <div class="col-md-12">
+
+        <div class="row">
+          <a href class="btn btn-primary pull-right">Edit Profile</a>
+          <a href class="btn btn-primary pull-right">Follow</a>
+          <a href class="btn btn-primary pull-right">Message</a>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-xs-6 col-md-3 thumbnail">
+            <!-- <a class="thumbnail"> -->
+              <h3>0</h3>
+              <small>Answer</small>
+            <!-- </a> -->
+          </div>
+          <div class="col-xs-6 col-md-3 thumbnail">
+            <h3>0</h3>
+            <small>Kisses</small>
+          </div>
+          <div class="col-xs-6 col-md-3 thumbnail">
+            <h3>0</h3>
+            <small>Marries</small>
+          </div>
+          <div class="col-xs-6 col-md-3 thumbnail">
+            <h3>0</h3>
+            <small>Diss</small>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-6 col-md-4 thumbnail">
+            <a href class="btn btn-primary col-md-12">
+              Kiss
+            </a>
+          </div>
+          <div class="col-xs-6 col-md-4 thumbnail">
+            <a href class="btn btn-primary col-md-12">
+              Marry
+            </a>
+          </div>
+          <div class="col-xs-6 col-md-4 thumbnail">
+            <a href class="btn btn-primary col-md-12">
+              Diss
+            </a>
+          </div>
+        </div>
+
+        <div class="row">
+
+          <div class="media" ng-repeat="s in streams">
+            <div class="media-left">
+              <a href="#">
+                <img width="32px" height="32px" class="media-object" ng-src="http://z-n.ak.fbcdn.net/profile.ak/hprofile-ak-xpa1/v/t1.0-1/c21.16.194.194/s160x160/1551_415463998566134_233267589_n.jpg?oh=2db1fd7351e890185d0703f83a8c38b4&oe=565B4664&__gda__=1444191590_60ad9bd44a846dcb02da5b9a2d42c85e" alt="...">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">@{{s.name}} kisses @name</h4>
+              <p><small><span am-time-ago="s.createdAt"></span></small></p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+          <a href class="btn btn-success col-md-12">Load more</a>
+        </div>
+
+      </div>
+      <div class="col-md-12"></div>
+    </div>
+</div>

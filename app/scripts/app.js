@@ -15,13 +15,18 @@ angular
     'ngResource',
     'ngRoute',
     'ngSanitize',
+    'angularMoment',
     'ngTouch'
   ])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
+        templateUrl: 'views/home.html',
+        controller: 'HomeCtrl'
+      })
+      .when('/profile', {
+        templateUrl: 'views/profile.html',
+        controller: 'ProfileCtrl'
       })
       .when('/about', {
         templateUrl: 'views/about.html',
