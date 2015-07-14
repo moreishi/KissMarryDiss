@@ -7,6 +7,9 @@
 
 body {
   padding: 0;
+  background-image: url('bg.png');
+  background-repeat: repeat-x;
+  background-repeat: repeat-y;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -80,4 +83,60 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+}
+
+/* custom & overides*/
+
+@import url(//fonts.googleapis.com/css?family=Lobster);
+
+.navbar-orange {
+  background-color: #ff8f4c;  
+}
+
+.navbar {
+  border-radius: 0px;
+}
+
+.nav a {
+  color: #ffffff;
+}
+
+.nav a:hover, 
+.nav a:active,
+.nav a:visited,
+.navbar-nav a:hover,
+.navbar-nav a:active, 
+.navbar-nav a:visited, {
+  color: #ffffff;
+  background-color: #fe6b13 !important;
+}
+
+.navbar-brand a, .navbar-header a {
+  color: #ffffff !important;
+  font-family: 'Lobster', cursive;
+}
+
+.header h3 {
+  line-height: 20px;
+}
+
+.jam {
+  margin-bottom: 10px;
+}
+
+.orange {
+  color: #fe6b13;
+  font-weight: bold;
+}
+
+.name {
+  color: #fe6b13;
+}
+
+.red {
+  color: #ec3232;
+}
+
+.caption {
+  color: #8c8c8c !important;
 }
